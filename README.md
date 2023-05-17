@@ -1,2 +1,2 @@
 # Garage-Login-System
-A simple Project based on ATmega32 MCU that serves the concepts of external interrupt and timers loke timer 0.
+A simple Project based on ATmega32 MCU that serves the concepts of external interrupt and timers like timer 0, The first version is about to ask the user about his password to check it only if the interrupt of the login attempt is fired then it compares it to a pre-saved password and only if the password is correct the motor operates for four seconds and stops as an action of opening the garage door and if the password is incorrect it gives the user a three trials then he will be entered in a blocking mode system that blocks him temporarily for six seconds.
